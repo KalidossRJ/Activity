@@ -1,40 +1,26 @@
 ## LifeCycle Of Activity
 
-onCreate()
-
-onStart()
-
-onResume()
-
-onPause()
-
-onStop()
-
-onDestroy()
+onCreate() <br />
+onStart() <br />
+onResume() <br />
+onPause()  <br />
+onStop()  <br />
+onDestroy()  <br />
 
 
 #### MainActivity navigates to SecondActivity
 
-MainActivity onPause()
-
-SecondActivity onCreate()
-
-SecondActivity onStart()
-
-SecondActivity onResume()
-
-MainActivity onStop()
+MainActivity onPause()  <br />
+SecondActivity onCreate()  <br />
+SecondActivity onStart() <br />
+SecondActivity onResume() <br />
+MainActivity onStop() <br />
 
 #### When back button presses (return to MainActivity)
 
-SecondActivity onPause()
-
-MainActivity onRestart()
-
-MainActivity onStart()
-
-MainActivity onResume()
-
-SecondActivity onStop()
-
-SecondActivity onDestroy()
+SecondActivity onPause() <br />
+MainActivity onRestart() <br />
+MainActivity onStart() <br />
+MainActivity onResume() <br />
+SecondActivity onStop() <br />
+SecondActivity onDestroy() <br />
