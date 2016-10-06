@@ -1,4 +1,4 @@
-LifeCycle Of Activity
+## LifeCycle Of Activity
 
 onCreate()
 onStart()
