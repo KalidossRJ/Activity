@@ -28,8 +28,13 @@ MainActivity onStop()
 #### When back button presses (return to MainActivity)
 
 SecondActivity onPause()
+
 MainActivity onRestart()
+
 MainActivity onStart()
+
 MainActivity onResume()
+
 SecondActivity onStop()
+
 SecondActivity onDestroy()
