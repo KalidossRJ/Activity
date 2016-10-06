@@ -1,8 +1,11 @@
 ## LifeCycle Of Activity
 
 onCreate()
+
 onStart()
+
 onResume()
+
 onPause()
 onStop()
 onDestroy()
